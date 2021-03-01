@@ -1,0 +1,6 @@
+imgaug==0.4.0
+Cython
+opencv-python==3.4.3.18
+Pillow
+six
+tqdm

@@ -1,7 +1,7 @@
 # Optimization for Oriented Object Detection via Representation Invariance Loss
 By Qi Ming, Zhiqiang Zhou, Lingjuan Miao, Xue Yang, and Yunpeng Dong.
 
-The repository hosts the codes for our paper `Optimization for Oriented Object Detection via Representation Invariance Loss` (paper link). 
+The repository hosts the codes for our paper `Optimization for Oriented Object Detection via Representation Invariance Loss` ([paper link](https://arxiv.org/abs/2103.11636)). 
 
 ## Notes
 
@@ -84,4 +84,14 @@ Note that :
 All the trained models can be found [here](https://pan.baidu.com/s/1jBRHu4VaNAbqHVYH71Y47A) with fetch code `q9zc`.
 
 ## Citation
-To be updated.
+
+
+```
+@article{ming2021optimization,
+  title={Optimization for Oriented Object Detection via Representation Invariance Loss},
+  author={Ming, Qi and Zhou, Zhiqiang and Miao, Lingjuan and Yang, Xue and Dong, Yunpeng},
+  journal={arXiv preprint arXiv:2103.11636},
+  year={2021}
+}
+```
+

@@ -1,7 +1,7 @@
 # Optimization for Oriented Object Detection via Representation Invariance Loss
 By Qi Ming, Zhiqiang Zhou, Lingjuan Miao, Xue Yang, and Yunpeng Dong.
 
-The repository hosts the codes for our paper `Optimization for Oriented Object Detection via Representation Invariance Loss` (paper link), based on [mmdetection](https://github.com/open-mmlab/mmdetection) and [s2anet](https://github.com/csuhan/s2anet). 
+The repository hosts the codes for our paper `Optimization for Oriented Object Detection via Representation Invariance Loss` ([paper link](https://arxiv.org/abs/2103.11636)), based on [mmdetection](https://github.com/open-mmlab/mmdetection) and [s2anet](https://github.com/csuhan/s2anet). 
 
 
 ## Introduction
@@ -72,4 +72,12 @@ All the trained models can be found [here](https://pan.baidu.com/s/1jBRHu4VaNAbq
 The implementation based on mmdetection does not work well on the scene text datasets. Recommend to use my another implementation: [RIDet-pytorch](https://github.com/ming71/RIDet/tree/RIDet-pytorch). 
 
 ## Citation
-To be updated.
+```
+@article{ming2021optimization,
+  title={Optimization for Oriented Object Detection via Representation Invariance Loss},
+  author={Ming, Qi and Zhou, Zhiqiang and Miao, Lingjuan and Yang, Xue and Dong, Yunpeng},
+  journal={arXiv preprint arXiv:2103.11636},
+  year={2021}
+}
+```
+

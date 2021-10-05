@@ -1,13 +1,13 @@
 # Optimization for Oriented Object Detection via Representation Invariance Loss
+![RIL](https://github.com/ming71/RIDet/blob/master/pics/RIL.png)
+
 By Qi Ming, Zhiqiang Zhou, Lingjuan Miao, Xue Yang, and Yunpeng Dong.
 
-The repository hosts the codes for our paper `Optimization for Oriented Object Detection via Representation Invariance Loss` ([paper link](https://arxiv.org/abs/2103.11636)). 
-
-## Notes
+The repository hosts the codes for our paper `Optimization for Oriented Object Detection via Representation Invariance Loss` ([PDF](https://ieeexplore.ieee.org/document/9555916), [arxiv](https://arxiv.org/abs/2103.11636)). 
 
 
 ## Introduction
-To be updated.
+Arbitrary**-**oriented objects exist widely in remote sensing images**.** The mainstream rotation detectors use oriented bounding boxes (OBB**)** or quadrilateral bounding boxes (QBB**)** to represent the rotating objects**.** However**,** these methods suffer from the representation ambiguity for oriented object definition**,** which leads to suboptimal regression optimization and the inconsistency between the loss metric and the localization accuracy of the predictions**.** In this paper**,** we propose a Representation Invariance Loss (RIL**)** to optimize the bounding box regression for the rotating objects in the remote sensing images**.** RIL treats multiple representations of an oriented object as multiple equivalent local minima**,** and hence transforms bounding box regression into an adaptive matching process with these local minima**.** Next**,** the Hungarian matching algorithm is adopted to obtain the optimal regression strategy**.** Besides**,** we propose a normalized rotation loss to alleviate the weak correlation between different variables and their unbalanced loss contribution in OBB representation**.** Extensive experiments on remote sensing datasets show that our method achieves consistent and substantial improvement**.** 
 
 
 
@@ -81,17 +81,27 @@ Note that :
 
 
 ## Models
-All the trained models can be found [here](https://pan.baidu.com/s/1jBRHu4VaNAbqHVYH71Y47A) with fetch code `q9zc`.
+All the trained models can be found [here](https://pan.baidu.com/s/1y84hVR0RYYONGJDs8SQJAg) with fetch code `mmt9`.
+
+![SOTA](https://github.com/ming71/RIDet/blob/master/pics/performance.png)
+
+## Detections
+
+![Dets](https://github.com/ming71/RIDet/blob/master/pics/DOTA.jpg)
 
 ## Citation
 
+If you find our work or code useful in your research, please consider citing:
+
 
 ```
-@article{ming2021optimization,
-  title={Optimization for Oriented Object Detection via Representation Invariance Loss},
-  author={Ming, Qi and Zhou, Zhiqiang and Miao, Lingjuan and Yang, Xue and Dong, Yunpeng},
-  journal={arXiv preprint arXiv:2103.11636},
-  year={2021}
-}
+@article{ming2021optimization, 
+ author={Ming, Qi and Miao, Lingjuan and Zhou, Zhiqiang and Yang, Xue and Dong, Yunpeng}, 
+journal={IEEE Geoscience and Remote Sensing Letters}, 
+ title={Optimization for Arbitrary-Oriented Object Detection via Representation Invariance Loss}, 
+year={2021}, 
+pages={1-5}, 
+doi={10.1109/LGRS.2021.3115110}}
 ```
 
+If you have any questions, please contact me via issue or [email](mq_chaser@126.com).

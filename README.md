@@ -8,7 +8,7 @@ The repository hosts the codes for our paper `Optimization for Oriented Object D
 
 
 ## Introduction
-Arbitrary**-**oriented objects exist widely in remote sensing images**.** The mainstream rotation detectors use oriented bounding boxes (OBB**)** or quadrilateral bounding boxes (QBB**)** to represent the rotating objects**.** However**,** these methods suffer from the representation ambiguity for oriented object definition**,** which leads to suboptimal regression optimization and the inconsistency between the loss metric and the localization accuracy of the predictions**.** In this paper**,** we propose a Representation Invariance Loss (RIL**)** to optimize the bounding box regression for the rotating objects in the remote sensing images**.** RIL treats multiple representations of an oriented object as multiple equivalent local minima**,** and hence transforms bounding box regression into an adaptive matching process with these local minima**.** Next**,** the Hungarian matching algorithm is adopted to obtain the optimal regression strategy**.** Besides**,** we propose a normalized rotation loss to alleviate the weak correlation between different variables and their unbalanced loss contribution in OBB representation**.** Extensive experiments on remote sensing datasets show that our method achieves consistent and substantial improvement**.** 
+Arbitrary-oriented objects exist widely in remote sensing images. The mainstream rotation detectors use oriented bounding boxes (OBB) or quadrilateral bounding boxes (QBB) to represent the rotating objects. However, these methods suffer from the representation ambiguity for oriented object definition, which leads to suboptimal regression optimization and the inconsistency between the loss metric and the localization accuracy of the predictions. In this paper, we propose a Representation Invariance Loss (RIL) to optimize the bounding box regression for the rotating objects in the remote sensing images. RIL treats multiple representations of an oriented object as multiple equivalent local minima, and hence transforms bounding box regression into an adaptive matching process with these local minima. Next, the Hungarian matching algorithm is adopted to obtain the optimal regression strategy. Besides, we propose a normalized rotation loss to alleviate the weak correlation between different variables and their unbalanced loss contribution in OBB representation. Extensive experiments on remote sensing datasets show that our method achieves consistent and substantial improvement. 
 
 
 
@@ -97,12 +97,12 @@ If you find our work or code useful in your research, please consider citing:
 
 ```
 @article{ming2021optimization, 
- author={Ming, Qi and Miao, Lingjuan and Zhou, Zhiqiang and Yang, Xue and Dong, Yunpeng}, 
-journal={IEEE Geoscience and Remote Sensing Letters}, 
- title={Optimization for Arbitrary-Oriented Object Detection via Representation Invariance Loss}, 
-year={2021}, 
-pages={1-5}, 
-doi={10.1109/LGRS.2021.3115110}}
+ 		 author={Ming, Qi and Miao, Lingjuan and Zhou, Zhiqiang and Yang, Xue and Dong, Yunpeng}, 
+		 journal={IEEE Geoscience and Remote Sensing Letters}, 
+ 		 title={Optimization for Arbitrary-Oriented Object Detection via Representation Invariance Loss}, 
+		 year={2021}, 
+		 pages={1-5}, 
+		 doi={10.1109/LGRS.2021.3115110}}
 ```
 
 If you have any questions, please contact me via issue or [email](mq_chaser@126.com).

@@ -84,11 +84,11 @@ Note that :
 ## Models
 All the trained models can be found [here](https://pan.baidu.com/s/1y84hVR0RYYONGJDs8SQJAg) with fetch code `mmt9`.
 
-<div align=center><img width="500" height="300" src="https://github.com/ming71/RIDet/blob/RIDet-pytorch/pics/performance.png"/></div>
+![SOTA](https://github.com/ming71/RIDet/blob/RIDet-pytorch/pics/performance.png)
 
 ## Detections
 
-<div align=center><img width="500" height="300" src="https://github.com/ming71/RIDet/blob/RIDet-pytorch/pics/DOTA.png"/></div>
+![Dets](https://github.com/ming71/RIDet/blob/RIDet-pytorch/pics/DOTA.jpg)
 
 ## Citation
 

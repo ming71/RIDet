@@ -97,12 +97,12 @@ If you find our work or code useful in your research, please consider citing:
 
 ```
 @article{ming2021optimization, 
- 		 author={Ming, Qi and Miao, Lingjuan and Zhou, Zhiqiang and Yang, Xue and Dong, Yunpeng}, 
-		 journal={IEEE Geoscience and Remote Sensing Letters}, 
- 		 title={Optimization for Arbitrary-Oriented Object Detection via Representation Invariance Loss}, 
-		 year={2021}, 
-		 pages={1-5}, 
-		 doi={10.1109/LGRS.2021.3115110}}
+	author={Ming, Qi and Miao, Lingjuan and Zhou, Zhiqiang and Yang, Xue and Dong, Yunpeng}, 
+	journal={IEEE Geoscience and Remote Sensing Letters}, 
+	title={Optimization for Arbitrary-Oriented Object Detection via Representation Invariance Loss}, 
+	year={2021}, 
+	pages={1-5}, 
+	doi={10.1109/LGRS.2021.3115110}}
 ```
 
 If you have any questions, please contact me via issue or [email](mq_chaser@126.com).

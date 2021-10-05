@@ -1,6 +1,6 @@
 # Optimization for Oriented Object Detection via Representation Invariance Loss
 
-![RIL](https://github.com/ming71/RIDet/blob/master/pics/RIL.png)
+<div align=center><img width="500" height="300" src="https://github.com/ming71/RIDet/blob/RIDet-pytorch/pics/RIL.png"/></div>
 
 By Qi Ming, Zhiqiang Zhou, Lingjuan Miao, Xue Yang, and Yunpeng Dong.
 
@@ -71,11 +71,11 @@ sh demo.sh
 ## Models
 All the trained models can be found [here](https://pan.baidu.com/s/1y84hVR0RYYONGJDs8SQJAg) with fetch code `mmt9`.
 
-![SOTA](https://github.com/ming71/RIDet/blob/master/pics/performance.png)
+![SOTA](https://github.com/ming71/RIDet/tree/RIDet-pytorch/pics/performance.png)
 
 ## Detections
 
-![Dets](https://github.com/ming71/RIDet/blob/master/pics/DOTA.jpg)
+![Dets](https://github.com/ming71/RIDet/tree/RIDet-pytorch/pics/DOTA.jpg)
 
 ## Notes
 The implementation does not work well on the scene text datasets. Recommend to my another implementation: [RIDet-pytorch](https://github.com/ming71/RIDet/tree/RIDet-pytorch). 
@@ -86,12 +86,12 @@ If you find our work or code useful in your research, please consider citing:
 
 ```
 @article{ming2021optimization, 
- author={Ming, Qi and Miao, Lingjuan and Zhou, Zhiqiang and Yang, Xue and Dong, Yunpeng}, 
-journal={IEEE Geoscience and Remote Sensing Letters}, 
- title={Optimization for Arbitrary-Oriented Object Detection via Representation Invariance Loss}, 
-year={2021}, 
-pages={1-5}, 
-doi={10.1109/LGRS.2021.3115110}}
+	author={Ming, Qi and Miao, Lingjuan and Zhou, Zhiqiang and Yang, Xue and Dong, Yunpeng}, 
+	journal={IEEE Geoscience and Remote Sensing Letters}, 
+	title={Optimization for Arbitrary-Oriented Object Detection via Representation Invariance Loss}, 
+	year={2021}, 
+	pages={1-5}, 
+	doi={10.1109/LGRS.2021.3115110}}
 ```
 
 If you have any questions, please contact me via issue or [email](mq_chaser@126.com).

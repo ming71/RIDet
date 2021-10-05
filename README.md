@@ -2,7 +2,7 @@
 
 <div align=center><img width="500" height="300" src="https://github.com/ming71/RIDet/blob/RIDet-pytorch/pics/RIL.png"/></div>
 
-By Qi Ming, Zhiqiang Zhou, Lingjuan Miao, Xue Yang, and Yunpeng Dong.
+By [Qi Ming](https://ming71.github.io/), Zhiqiang Zhou, Lingjuan Miao, [Xue Yang](https://yangxue0827.github.io/index.html), and Yunpeng Dong.
 
 The repository hosts the codes for our paper `Optimization for Oriented Object Detection via Representation Invariance Loss` ([PDF](https://ieeexplore.ieee.org/document/9555916), [arxiv](https://arxiv.org/abs/2103.11636)). 
 
@@ -84,7 +84,7 @@ Note that :
 ## Models
 All the trained models can be found [here](https://pan.baidu.com/s/1y84hVR0RYYONGJDs8SQJAg) with fetch code `mmt9`.
 
-![SOTA](https://github.com/ming71/RIDet/blob/RIDet-pytorch/pics/performance.png)
+![SOTA](https://github.com/ming71/RIDet/tree/RIDet-pytorch/pics/performance.png)
 
 ## Detections
 

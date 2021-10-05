@@ -1,5 +1,5 @@
 # Optimization for Oriented Object Detection via Representation Invariance Loss
-![RIL](https://github.com/ming71/RIDet/blob/RIDet-pytorch/pics/RIL.png){:height="50%" width="50%"}
+![RIL](https://github.com/ming71/RIDet/blob/RIDet-pytorch/pics/RIL.png){:height="60%" width="60%"}
 
 By Qi Ming, Zhiqiang Zhou, Lingjuan Miao, Xue Yang, and Yunpeng Dong.
 

@@ -1,10 +1,10 @@
-# Optimization for Oriented Object Detection via Representation Invariance Loss
+# Optimization for Arbitrary-Oriented Object Detection via Representation Invariance Loss
 
 <div align=center><img width="500" height="300" src="https://github.com/ming71/RIDet/blob/RIDet-pytorch/pics/RIL.png"/></div>
 
 By [Qi Ming](https://ming71.github.io/), Zhiqiang Zhou, Lingjuan Miao, [Xue Yang](https://yangxue0827.github.io/index.html), and Yunpeng Dong.
 
-The repository hosts the codes for our paper `Optimization for Oriented Object Detection via Representation Invariance Loss` ([PDF](https://ieeexplore.ieee.org/document/9555916), [arxiv](https://arxiv.org/abs/2103.11636)). 
+The repository hosts the codes for our paper `Optimization for Arbitrary-Oriented Object Detection via Representation Invariance Loss` ([PDF](https://ieeexplore.ieee.org/document/9555916), [arxiv](https://arxiv.org/abs/2103.11636)). 
 
 
 ## Introduction

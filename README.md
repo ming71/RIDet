@@ -84,7 +84,7 @@ Note that :
 ## Models
 All the trained models can be found [here](https://pan.baidu.com/s/1y84hVR0RYYONGJDs8SQJAg) with fetch code `mmt9`.
 
-![SOTA](https://github.com/ming71/RIDet/tree/RIDet-pytorch/pics/performance.png)
+![SOTA](https://github.com/ming71/RIDet/blob/RIDet-pytorch/pics/performance.png)
 
 ## Detections
 
